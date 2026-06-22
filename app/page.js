@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import UserMenu from "./components/UserMenu";
 
 // ── Placeholder content (static — no fetching) ─────────────────────────
 const projects = [
@@ -103,9 +104,7 @@ export default function Home() {
         <span className="glitch neon-text text-primary text-xl font-bold tracking-[0.3em]">
           DEVFORGE
         </span>
-        <Button href="/auth" variant="outline" size="sm">
-          &gt; access_terminal
-        </Button>
+        <UserMenu />
       </header>
 
       {/* ── Hero ────────────────────────────────────────────────── */}
